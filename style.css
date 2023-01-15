@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500&display=swap');
+
+
+
+*{margin: 0;padding: 0;}
+body{
+    font-family: 'Work Sans';
+}
+
+.header-section{
+    width: 100%;
+    height: 1200px;
+   background-color: #FFF4E7;
+   border: 1px solid red;
+}
+.navication{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    padding-top: 40px;
+    align-items: center;
+    color: #131313;
+   
+}
+.heading{
+    width: 302px;
+    height: 53px;;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.minu-items{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.header-main-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 859px;
+    height: 225px;
+    margin: auto;
+    padding-top: 100px;
+}
+.main-header{
+    width: 450px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.main-header-parag{
+    color: #727272;
+    padding-bottom: 30px;
+
+}
+.main-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px; 
+    text-align: center;
+    color: #FFFFFF; 
+    border: none;
+      
+}
+.img{
+    width: 1000px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+}
+.main-section{
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+.main-section-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 342px;
+    height: 342px;
+    gap: 15px;
+    
+}
+.main-section-img img{
+    width: 250px;
+    height: 250px;
+}
+.main-article{
+    width: 400px;
+    padding-left: 200px;
+    padding-top: 150px;
+    
+}
+h1 {
+    font-weight: 500;
+    font-size: 44px;
+    width: 353px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+.off-our{
+    color: #131313;
+}
+.Features{
+    color: #FF900E;
+}
+p {
+    width: 513px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+.button{
+    width: 150px;
+    height: 64px;
+    background-color: #FF900E;
+    font-weight: 600;
+    font-size: 20px;
+    color:#FFFFFF; 
+    border-radius: 7px;
+    border: none;
+}
+
